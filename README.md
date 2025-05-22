@@ -1,115 +1,115 @@
-# ClassicCar Blog
+# 🚗 ClassicCar Blog
 
-**Uma plataforma para compartilharem e explorarem projetos automotivos**
+> **Compartilhe, explore e debata projetos automotivos onde quer que esteja.**
 
-## Sobre o Projeto
-
-O **ClassicCar Blog** é um aplicativo móvel desenvolvido em React Native que permite:
-- Compartilhamento de projetos automotivos detalhados
-- Discussão técnica entre entusiastas
-- Descoberta de modificações criativas
-- Conexão com uma comunidade que gosta de carros
-
-##  Funcionalidades
-
-### Principais Recursos
-- **Criação de Posts**
-  - Detalhes técnicos (modelo, ano, potência)
-  - Descrição completa do projeto
-  - Lista de modificações implementadas
-- **Engajamento Social**
-  - Sistema de curtidas 
-  - Comentários em threads 
-  - Identificação de autores 
-- **Gestão de Conteúdo**
-  - Exclusão de conteúdo 
-- **Perfil de Usuário**
-  - Autenticação segura 
-  - Histórico de posts 
+<p align="center">
+  <img alt="Expo" src="https://img.shields.io/badge/Expo-%5E50.0.0-000?logo=expo&logoColor=white" />
+  <img alt="React Native" src="https://img.shields.io/badge/React_Native-0.74-blue?logo=react&logoColor=white" />
+  <img alt="License: MIT" src="https://img.shields.io/badge/License-MIT-green.svg" />
+</p>
 
 ---
 
-##  Preview
--Pagina de login
+## ✨ Visão Geral
 
-<img src="https://github.com/user-attachments/assets/9e48ab35-868f-42c4-a846-c773a67cd317" width="200"/>
+O **ClassicCar Blog** é um aplicativo mobile (iOS + Android) que conecta entusiastas de carros clássicos e projetos de customização. Publique builds detalhados, receba feedback da comunidade e descubra modificações criativas em um feed social pensado só para gearheads.
 
--Pagina de cadastro
+---
 
-<img src="https://github.com/user-attachments/assets/5eeb9013-979d-4c91-92d0-6d4282f7a380" width="200"/>
+## 📑 Sumário
 
--Feed
+1. [Funcionalidades](#funcionalidades)
+2. [Preview](#preview)
+3. [Tecnologias](#tecnologias)
+4. [Instalação](#instalação)
+5. [Contribuindo](#contribuindo)
+6. [Licença](#licença)
 
-<img src="https://github.com/user-attachments/assets/914e709b-b202-4aee-befb-b705db4b667f" width="200"/>
+---
 
--Onde criar os posts
+## ⚙️ Funcionalidades
 
-<img src="https://github.com/user-attachments/assets/c93dcabb-38ab-4998-9dcc-a2ffee6ef349" width="200"/>
+| 💡                     | Descrição                                                          |
+| ---------------------- | ------------------------------------------------------------------ |
+| **Criação de Posts**   | Informe modelo, ano, potência, lista de mods e descrição completa. |
+| **Interação Social**   | Curtidas, comentários em thread e identificação de autores.        |
+| **Gestão de Conteúdo** | Edite ou exclua seus posts quando quiser.                          |
+| **Perfis**             | Autenticação segura, avatar e histórico dos seus projetos.         |
+| **Pesquisa**           | Filtre por marca, ano ou tipo de modificação.                      |
+| **Modo Offline**       | Consulte seus posts mesmo sem internet.                            |
 
--Post criado
+---
 
-<img src="https://github.com/user-attachments/assets/99156c86-1fb5-47e4-8069-cbdcfbbb8673" width="200"/>
+## 📱 Preview
 
--Comentários 
+| Login                                                                                                    | Cadastro                                                                                                 | Feed                                                                                                    |
+| -------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------- |
+| <img src="https://github.com/user-attachments/assets/9e48ab35-868f-42c4-a846-c773a67cd317" width="220"/> | <img src="https://github.com/user-attachments/assets/5eeb9013-979d-4c91-92d0-6d4282f7a380" width="220"/> | <img src="https://github.com/user-attachments/assets/914e709b-202-4aee-befb-b705db4b667f" width="220"/> |
 
-<img src="https://github.com/user-attachments/assets/4e0271fb-67f0-452d-90c6-0ede07fd8333" width="200"/>
+| Criar Post                                                                                               | Post Detalhado                                                                                           | Comentários                                                                                              |
+| -------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------- |
+| <img src="https://github.com/user-attachments/assets/c93dcabb-38ab-4998-9dcc-a2ffee6ef349" width="220"/> | <img src="https://github.com/user-attachments/assets/99156c86-1fb5-47e4-8069-cbdcfbbb8673" width="220"/> | <img src="https://github.com/user-attachments/assets/4e0271fb-67f0-452d-90c6-0ede07fd8333" width="220"/> |
 
+> 🔍 **Dica**: clique nas imagens para ampliá‑las no GitHub.
 
-<img src="https://github.com/user-attachments/assets/b4767d63-8d37-4177-88aa-2a1a711eb9c9" width="200"/>
+---
 
+## 🛠 Tecnologias
 
+* **React Native** + **Expo Router**
+* **TypeScript**
+* **Firebase** (Auth & Firestore)
+* **React Hook Form** + **Yup** (validação)
+* **Zustand** (estado global)
+* **Styled‑Components**
+* **ESLint / Prettier**
 
+---
 
+## 🚀 Instalação
 
-##  Como Executar
+```bash
+# 1. Clone o repositório
+$ git clone https://github.com/seu-user/classiccar-blog.git
+$ cd classiccar-blog
 
-# Welcome to your Expo app 
+# 2. Instale as dependências
+$ npm install   # ou yarn
 
-This is an [Expo](https://expo.dev) project created with [create-expo-app](https://www.npmjs.com/package/create-expo-app).
+# 3. Execute em modo de desenvolvimento
+$ npx expo start
+```
 
-## Get started
+No terminal, pressione **i** para abrir no *iOS Simulator*, **a** para *Android Emulator* ou escaneie o QR Code com o **Expo Go**.
 
-1. Install dependencies
+### Resetar o projeto
 
-   bash
-   npm install
-   
-
-2. Start the app
-
-   bash
-   npx expo start
-   
-
-In the output, you'll find options to open the app in a
-
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
-
-You can start developing by editing the files inside the *app* directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
-
-bash
+```bash
 npm run reset-project
+```
 
+Este comando move o starter para `app-example/` e deixa `app/` limpo para codar.
 
-This command will move the starter code to the *app-example* directory and create a blank *app* directory where you can start developing.
+---
 
-## Learn more
+## 🤝 Contribuindo
 
-To learn more about developing your project with Expo, look at the following resources:
+1. Crie um *fork* deste repositório.
+2. Crie uma *branch* com sua feature: `git checkout -b minha-feature`.
+3. Faça *commit* das suas mudanças: `git commit -m 'feat: Minha nova feature'`.
+4. Faça *push* para sua branch: `git push origin minha-feature`.
+5. Abra um *Pull Request*.
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+>  ✨ *Pull requests* de correções, novas funcionalidades ou melhorias na documentação são muito bem‑vindos!
 
-## Join the community
+---
 
-Join our community of developers creating universal apps.
+## 📄 Licença
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+Distribuído sob a licença **MIT**. Veja `LICENSE` para mais detalhes.
+
+---
+
+<p align="center">
+  Feito com ❤️ &nbsp;por entusiastas de carros clássicos.
+</p>
