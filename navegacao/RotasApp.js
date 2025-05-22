@@ -1,7 +1,7 @@
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import { MaterialCommunityIcons } from '@expo/vector-icons';
-import Feed from '../telas/app/Feed';
-import Postar from '../telas/app/Postar';
+import Feed from '../../telas/app/Feed';
+import Postar from '../../telas/app/Postar';
 
 const Tab = createBottomTabNavigator();
 

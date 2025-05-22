@@ -1,11 +1,14 @@
 import React, { useContext } from 'react';
 import { NavigationContainer } from '@react-navigation/native';
 import { createStackNavigator } from '@react-navigation/stack';
-import { ProvedorAutenticacao, AutenticacaoContext } from './contexto/AuthContext';
+import {
+  ProvedorAutenticacao,
+  AutenticacaoContext,
+} from './contexto/AuthContext';
 import Login from './telas/autenticacao/Login';
 import Cadastro from './telas/autenticacao/Cadastro';
-import Feed from './telas/app/Feed';
-import Postar from './telas/app/Postar';
+import Feed from './telas/app/feed';
+import Postar from './telas/app/postar';
 
 const Stack = createStackNavigator();
 
