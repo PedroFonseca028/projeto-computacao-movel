@@ -14,18 +14,6 @@
 
 O **ClassicCar Blog** é um aplicativo mobile (iOS + Android) que conecta entusiastas de carros clássicos e projetos de customização. Publique builds detalhados, receba feedback da comunidade e descubra modificações criativas em um feed social pensado só para gearheads.
 
----
-
-## 📑 Sumário
-
-1. [Funcionalidades](#funcionalidades)
-2. [Preview](#preview)
-3. [Tecnologias](#tecnologias)
-4. [Instalação](#instalação)
-5. [Contribuindo](#contribuindo)
-6. [Licença](#licença)
-
----
 
 ## ⚙️ Funcionalidades
 
