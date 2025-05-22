@@ -31,6 +31,7 @@ O **ClassicCar Blog** é um aplicativo móvel desenvolvido em React Native que p
 
 ##  Preview
 
+![imagem 1](https://github.com/user-attachments/assets/9e48ab35-868f-42c4-a846-c773a67cd317)
 
 
 ##  Como Executar
