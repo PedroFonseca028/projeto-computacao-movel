@@ -33,9 +33,8 @@ O **ClassicCar Blog** é um aplicativo mobile (iOS + Android) que conecta en
 | ---------------------- | ------------------------------------------------------------------ |
 | **Criação de Posts**   | Informe modelo, ano, potência, lista de mods e descrição completa. |
 | **Interação Social**   | Curtidas, comentários em thread e identificação de autores.        |
-| **Gestão de Conteúdo** | Edite ou exclua seus posts quando quiser.                          |
-| **Perfis**             | Autenticação segura, avatar e histórico dos seus projetos.         |
-| **Pesquisa**           | Filtre por marca, ano ou tipo de modificação.                      |
+| **Gestão de Conteúdo** | Exclua seus posts quando quiser.                                   |
+| **Perfis**             | Autenticação segura.                                               |
 | **Modo Offline**       | Consulte seus posts mesmo sem internet.                            |
 
 ---
@@ -43,7 +42,7 @@ O **ClassicCar Blog** é um aplicativo mobile (iOS + Android) que conecta en
 ## 📱 Preview
 | Login                                                                                                    | Cadastro                                                                                                 | Feed                                                                                                    |
 | -------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------- |
-| <img src="https://github.com/user-attachments/assets/9e48ab35-868f-42c4-a846-c773a67cd317" width="220"/> | <img src="https://github.com/user-attachments/assets/fb2b9ad8-b749-49ae-b779-bb6eaeaa64f6" width="220"/> | <img src="https://github.com/user-attachments/assets/914e709b-202-4aee-befb-b705db4b667f" width="220"/> |
+| <img src="https://github.com/user-attachments/assets/9e48ab35-868f-42c4-a846-c773a67cd317" width="220"/> | <img src="https://github.com/user-attachments/assets/4e0271fb-67f0-452d-90c6-0ede07fd8333" width="220"/> | <img src="https://github.com/user-attachments/assets/914e709b-202-4aee-befb-b705db4b667f" width="220"/> |
 
 | Criar Post                                                                                               | Post Detalhado                                                                                           | Comentários                                                                                              |
 | -------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------- |
@@ -53,62 +52,57 @@ O **ClassicCar Blog** é um aplicativo mobile (iOS + Android) que conecta en
 
 ---
 
-## 🛠 Tecnologias
 
-* **React Native** + **Expo Router**
-* **TypeScript**
-* **Firebase** (Auth & Firestore)
-* **React Hook Form** + **Yup** (validação)
-* **Zustand** (estado global)
-* **Styled‑Components**
-* **ESLint / Prettier**
-
----
 
 ## 🚀 Instalação
 
-```bash
-# 1. Clone o repositório
-$ git clone https://github.com/seu-user/classiccar-blog.git
-$ cd classiccar-blog
+# Welcome to your Expo app 👋
 
-# 2. Instale as dependências
-$ npm install   # ou yarn
+This is an [Expo](https://expo.dev) project created with [create-expo-app](https://www.npmjs.com/package/create-expo-app).
 
-# 3. Execute em modo de desenvolvimento
-$ npx expo start
-```
+## Get started
 
-No terminal, pressione **i** para abrir no *iOS Simulator*, **a** para *Android Emulator* ou escaneie o QR Code com o **Expo Go**.
+1. Install dependencies
 
-### Resetar o projeto
+   bash
+   npm install
+   
 
-```bash
+2. Start the app
+
+   bash
+   npx expo start
+   
+
+In the output, you'll find options to open the app in a
+
+- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
+- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
+- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
+- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+
+You can start developing by editing the files inside the *app* directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+
+## Get a fresh project
+
+When you're ready, run:
+
+bash
 npm run reset-project
-```
 
-Este comando move o starter para `app-example/` e deixa `app/` limpo para codar.
 
----
+This command will move the starter code to the *app-example* directory and create a blank *app* directory where you can start developing.
 
-## 🤝 Contribuindo
+## Learn more
 
-1. Crie um *fork* deste repositório.
-2. Crie uma *branch* com sua feature: `git checkout -b minha-feature`.
-3. Faça *commit* das suas mudanças: `git commit -m 'feat: Minha nova feature'`.
-4. Faça *push* para sua branch: `git push origin minha-feature`.
-5. Abra um *Pull Request*.
+To learn more about developing your project with Expo, look at the following resources:
 
->  ✨ *Pull requests* de correções, novas funcionalidades ou melhorias na documentação são muito bem‑vindos!
+- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
+- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
 
----
+## Join the community
 
-## 📄 Licença
+Join our community of developers creating universal apps.
 
-Distribuído sob a licença **MIT**. Veja `LICENSE` para mais detalhes.
-
----
-
-<p align="center">
-  Feito com ❤️ &nbsp;por entusiastas de carros clássicos.
-</p>
+- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
+- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
