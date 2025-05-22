@@ -41,10 +41,9 @@ O **ClassicCar Blog** é um aplicativo mobile (iOS + Android) que conecta en
 ---
 
 ## 📱 Preview
-
 | Login                                                                                                    | Cadastro                                                                                                 | Feed                                                                                                    |
 | -------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------- |
-| <img src="https://github.com/user-attachments/assets/9e48ab35-868f-42c4-a846-c773a67cd317" width="220"/> | <img src="https://github.com/user-attachments/assets/5eeb9013-979d-4c91-92d0-6d4282f7a380" width="220"/> | <img src="https://github.com/user-attachments/assets/914e709b-202-4aee-befb-b705db4b667f" width="220"/> |
+| <img src="https://github.com/user-attachments/assets/9e48ab35-868f-42c4-a846-c773a67cd317" width="220"/> | <img src="https://github.com/user-attachments/assets/fb2b9ad8-b749-49ae-b779-bb6eaeaa64f6" width="220"/> | <img src="https://github.com/user-attachments/assets/914e709b-202-4aee-befb-b705db4b667f" width="220"/> |
 
 | Criar Post                                                                                               | Post Detalhado                                                                                           | Comentários                                                                                              |
 | -------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------- |
