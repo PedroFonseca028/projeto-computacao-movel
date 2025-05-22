@@ -30,6 +30,34 @@ O **ClassicCar Blog** é um aplicativo móvel desenvolvido em React Native que p
 ---
 
 ##  Preview
+-Pagina de login
+
+<img src="https://github.com/user-attachments/assets/9e48ab35-868f-42c4-a846-c773a67cd317" width="200"/>
+
+-Pagina de cadastro
+
+<img src="https://github.com/user-attachments/assets/5eeb9013-979d-4c91-92d0-6d4282f7a380" width="200"/>
+
+-Feed
+
+<img src="https://github.com/user-attachments/assets/914e709b-b202-4aee-befb-b705db4b667f" width="200"/>
+
+-Onde criar os posts
+
+<img src="https://github.com/user-attachments/assets/c93dcabb-38ab-4998-9dcc-a2ffee6ef349" width="200"/>
+
+-Post criado
+
+<img src="https://github.com/user-attachments/assets/99156c86-1fb5-47e4-8069-cbdcfbbb8673" width="200"/>
+
+-Comentários 
+
+<img src="https://github.com/user-attachments/assets/4e0271fb-67f0-452d-90c6-0ede07fd8333" width="200"/>
+
+
+<img src="https://github.com/user-attachments/assets/b4767d63-8d37-4177-88aa-2a1a711eb9c9" width="200"/>
+
+
 
 
 
